@@ -8,17 +8,17 @@ int main()
     setlocale(LC_ALL, "Russian");                              
     while (p != 2)
     {
-        cout << "1 = Калькулятор \n 2 - Ответ \n";
+        cout << "1 = Calculator \n 2 - Otvet \n";
         cin >> p;
         switch (p)
         {
         case 1:
         {
-            cout << "Первое число ";
+            cout << "First ";
             cin >> a;
             cout << "Знак ";
             cin >> d;
-            cout << "Второе число ";
+            cout << "SECOND ";
             cin >> b;
             if (d == '+')
                 c = a + b;
